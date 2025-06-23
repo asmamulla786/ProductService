@@ -1,0 +1,53 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code / VS
+.idea/
+.vscode/
+*.code-workspace
+
+# ASP.NET Core
+appsettings.*.json
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+
+# dotnet tools & logs
+*.log
+*.db
+*.sdf
+*.sqlite
+TestResults/
+coverage/
+coveragereport/
+*.coverage
+*.coveragexml
+*.cobertura.xml
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# ReportGenerator output
+report.html
+report.xml
+
+# macOS system files
+.DS_Store
+
+# Optional: Rider test config
+.ReSharper/
